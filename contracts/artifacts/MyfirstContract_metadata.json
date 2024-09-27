@@ -1,0 +1,148 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_height",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_color",
+						"type": "string"
+					},
+					{
+						"internalType": "enum MyfirstContract.GenderType",
+						"name": "_gender",
+						"type": "uint8"
+					},
+					{
+						"internalType": "string",
+						"name": "_weight",
+						"type": "string"
+					}
+				],
+				"name": "CreatePerson",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "age",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "height",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "color",
+								"type": "string"
+							},
+							{
+								"internalType": "enum MyfirstContract.GenderType",
+								"name": "gender",
+								"type": "uint8"
+							},
+							{
+								"internalType": "string",
+								"name": "weight",
+								"type": "string"
+							}
+						],
+						"internalType": "struct MyfirstContract.Person",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "value",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/firstcontract.sol": "MyfirstContract"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/firstcontract.sol": {
+			"keccak256": "0xa76e7c7254882c2586c5109ce74673755e5f69d3fdacccff417fe8d611577ad1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fa8e50999965c6af77d1b6864177208545f4799ae075eaf5b645a317f6f9edc1",
+				"dweb:/ipfs/QmfUWNckQVRRUiCnFDqTB3dmUqTGBkQvVdQ8YgmdkNGGSH"
+			]
+		}
+	},
+	"version": 1
+}
